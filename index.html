@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=divice-width,initial-scale=1">
+    <title>Title</title>
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/unslider.min.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+<!--头部内容，包括导航和图片-->
+<div class="header">
+    <div class="header-fo">
+        <p>热爱生活 享受乐趣</p>
+    </div>
+    <div class="header-ft">
+        Love life and enjoy the fun.
+    </div>
+</div>
+<div class="navigation" id="navigation">
+    <a href="#">
+                <span class="logo-bg">
+                    <img class="logo" src="images/data-image-png;base….png">
+                </span>
+    </a>
+    <ul class="navigation-ul">
+        <li><a href="#">文章</a></li>
+        <li><a href="#">欣赏</a></li>
+        <li><a href="#">素材</a></li>
+        <li><a href="#">兑换</a></li>
+        <li><a href="#">活动</a></li>
+        <li><a href="#">唯然</a></li>
+        <li id="more"><a href="#">更多</a>
+            <ul id="more-ch">
+                <li><a href="#" class="more-ch-ft" style="display:block;width: 100px;height: 30px;">关于觉维</a></li>
+                <li><a href="#" class="more-ch-ft" style="display:block;width: 100px;height: 30px;">留言联系</a></li>
+            </ul>
+        </li>
+        <li style="position: absolute;top:-2px;right: 115px;">
+            <a href="#" class="search"><img src="images/搜索.png" style="width:26px;height: 26px;"></a>
+        </li>
+        <div class="register"><a href="#">注册</a></div>
+        <div class="login"><a href="#">登录</a></div>
+    </ul>
+</div>
+<!--中间内容，包括一个小导航和js轮播，图片。-->
+<div class="content">
+    <div class="ct-navigation">
+        <ul>
+            <label class="ct-navigation-fo"><img src="images/通知.png"></label>
+            <li><a href="#"><span>[03-22]</span>用户中心正式上线</a></li>
+            <li><a href="#"><span>[12-11]</span>新增个人主页展示，越看越有爱</a></li>
+            <li><a href="#"><span>[12-04]</span>觉唯官网新版升级上线</a></li>
+            <li><a href="#"><span>[09-01]</span>新增QQ一键登录</a></li>
+            <li><a href="#"><span>[08-12]</span>觉唯商城Beta版测试上线</a></li>
+        </ul>
+    </div>
+    <div class="ct-navigation-intro">
+        <ul>
+            <li>
+                <div class="carousel">
+                    <ul>
+                        <li><a><img class="carousel-img" src="images/30235826cc21c218d1d33a5.png"></a></li>
+                        <li><a><img class="carousel-img" src="images/12215358876b9b48232955f.jpg"></a></li>
+                        <li><a><img class="carousel-img" src="images/20235402b31dda0947d4c4f.png"></a></li>
+                        <li><a><img class="carousel-img" src="images/24202947916729fe814a80d.png"></a></li>
+                        <li><a><img class="carousel-img" src="images/22143930d336eee5d32eabd.jpg"></a></li>
+                    </ul>
+                    <a><span class="left"><</span></a>
+                    <a><span class="right">></span></a>
+                </div>
+            </li>
+            <li><a href="#"><img src="images/20155332c79f0e688e9f3ba.png" width="300px" height="250"></a></li>
+            <li>
+                <div class="img-three"></div>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--图片动态，有点赞和留言功能-->
+<div class="dynamic">
+
+    <div class="dynamic-ct">
+        <ul>
+            <li>
+
+                <div class="dynamic-list">
+                    <a href="#">
+                        <div class="dynamic-list-img"><img class="move" src="images/211030276446d860dbbfe54.png"></div>
+                        <div class="dynamic-list-tx"><span>学会二维小动画，只需十分钟</span></div>
+                    </a>
+                    <div class="dynamic-list-time">
+                        <span>2017-04-08</span>
+                        <span class="fabulous two"><img src="images/留言.png"> 0</span>
+                        <span class="fabulous"><img src="images/爱心.png"><label> 1</label></span>
+                    </div>
+
+                    <div class="layer">
+                    </div>
+                    <div class="layer-home">
+                        <img src="images/标签.png" class="layer-home-lf home">
+                        <span class="layer-home-lf">交互设计</span>
+                        <img class="layer-home-rg home" src="images/热门.png">
+                        <span class="layer-home-rg">2982</span>
+                    </div>
+                    <div class="layer-home-co"></div>
+                    <div class="layer-home-ct"></div>
+                </div>
+
+            </li>
+            <li>
+
+                <div class="dynamic-list">
+                    <a href="#">
+                        <div class="dynamic-list-img"><img class="move" src="images/131654426446d860dbbfe54.png"></div>
+                        <div class="dynamic-list-tx"><span>釜势设计分享第二十三期-矢量盆景</span></div>
+                    </a>
+                    <div class="dynamic-list-time">
+                        <span>2017-04-08</span>
+                        <span class="fabulous"><img src="images/留言.png"> 0</span>
+                        <span class="fabulous"><img src="images/爱心.png"><label> 0</label></span>
+                    </div>
+                    <!--移入图片蒙层动画-->
+                    <div class="layer">
+                    </div>
+                    <div class="layer-home">
+                        <img src="images/标签.png" class="layer-home-lf home">
+                        <span class="layer-home-lf">视觉设计</span>
+                        <img class="layer-home-rg home" src="images/热门.png">
+                        <span class="layer-home-rg">2453</span>
+                    </div>
+                    <div class="layer-home-co"></div>
+                    <div class="layer-home-ct"></div>
+                </div>
+            </li>
+            <li>
+                <div class="dynamic-list">
+                    <a href="#">
+                        <div class="dynamic-list-img"><img class="move" src="images/1911095224ddb57abe90a18.jpg"
+                                                           style="margin-top: 10px;"></div>
+                        <div class="dynamic-list-tx"><span>2017年大前端发展趋势</span></div>
+                    </a>
+                    <div class="dynamic-list-time" style="margin-top:10px;">
+                        <span>2017-03-19</span>
+                        <span class="fabulous"><img src="images/留言.png"> 1</span>
+                        <span class="fabulous"><img src="images/爱心.png"><label> 3</label></span>
+                    </div>
+
+                    <div class="layer-o">
+                    </div>
+                    <div class="layer-home">
+                        <img src="images/标签.png" class="layer-home-lf home">
+                        <span class="layer-home-lf">前端开发</span>
+                        <img class="layer-home-rg home" src="images/热门.png">
+                        <span class="layer-home-rg">3049</span>
+                    </div>
+                    <div class="layer-home-co"></div>
+                    <div class="layer-home-ct"></div>
+                </div>
+            </li>
+            <li>
+                <div class="dynamic-list">
+                    <a href="#">
+                        <div class="dynamic-list-img"><img class="move" src="images/2022351074c803ab28302f5.jpg"
+                                                           style="margin-top: 10px"></div>
+                        <div class="dynamic-list-tx"><span>【魔法少女小圆】成人版圆神降临</span></div>
+                    </a>
+                    <div class="dynamic-list-time" style="margin-top: 10px;">
+                        <span>2017-02-20</span>
+                        <span class="fabulous"><img src="images/留言.png"> 0</span>
+                        <span class="fabulous"><img src="images/爱心.png"><label> 0</label></span>
+                    </div>
+
+                    <div class="layer-o">
+                    </div>
+                    <div class="layer-home">
+                        <img src="images/标签.png" class="layer-home-lf home">
+                        <span class="layer-home-lf">工业设计</span>
+                        <img class="layer-home-rg home" src="images/热门.png">
+                        <span class="layer-home-rg">2275</span>
+                    </div>
+                    <div class="layer-home-co"></div>
+                    <div class="layer-home-ct"></div>
+                </div>
+            </li>
+            <li>
+                <div class="dynamic-list">
+                    <a href="#">
+                        <div class="dynamic-list-img"><img class="move" src="images/2015542048125272b2f82e7.png"
+                                                           style="margin-top: 10px"></div>
+                        <div class="dynamic-list-tx"><span>动感特效轻松get</span></div>
+                    </a>
+                    <div class="dynamic-list-time">
+                        <span>2017-02-20</span>
+                        <span class="fabulous"><img src="images/留言.png"> 0</span>
+                        <span class="fabulous"><img src="images/爱心.png"><label> 0</label></span>
+                    </div>
+
+                    <div class="layer-o">
+                    </div>
+                    <div class="layer-home">
+                        <img src="images/标签.png" class="layer-home-lf home">
+                        <span class="layer-home-lf">视觉设计</span>
+                        <img class="layer-home-rg home" src="images/热门.png">
+                        <span class="layer-home-rg">2099</span>
+                    </div>
+                    <div class="layer-home-co"></div>
+                    <div class="layer-home-ct"></div>
+                </div>
+            </li>
+            <li>
+                <div class="dynamic-list">
+                    <a href="#">
+                        <div class="dynamic-list-img"><img class="move" src="images/1711264773cbace7d2913b6.png"
+                                                           style="margin-top: 10px"></div>
+                        <div class="dynamic-list-tx"><span>高效编写微信小程序</span></div>
+                    </a>
+                    <div class="dynamic-list-time">
+                        <span>2017-02-17</span>
+                        <span class="fabulous"><img src="images/留言.png"> 0</span>
+                        <span class="fabulous"><img src="images/爱心.png"><label> 0</label></span>
+                    </div>
+
+                    <div class="layer-o">
+                    </div>
+                    <div class="layer-home">
+                        <img src="images/标签.png" class="layer-home-lf home">
+                        <span class="layer-home-lf">前端开发设计</span>
+                        <img class="layer-home-rg home" src="images/热门.png">
+                        <span class="layer-home-rg">1946</span>
+                    </div>
+                    <div class="layer-home-co"></div>
+                    <div class="layer-home-ct"></div>
+                </div>
+            </li>
+            <li>
+                <div class="dynamic-list">
+                    <a href="#">
+                        <div class="dynamic-list-img"><img class="move" src="images/141252466446d860dbbfe54.png"
+                                                           style="margin-top: 10px"></div>
+                        <div class="dynamic-list-tx"><span>釜势设计分享第二十一期-毛皮文字</span></div>
+                    </a>
+                    <div class="dynamic-list-time">
+                        <span>2017-02-14</span>
+                        <span class="fabulous"><img src="images/留言.png"> 1</span>
+                        <span class="fabulous"><img src="images/爱心.png"><label> 1</label></span>
+                    </div>
+
+                    <div class="layer-o">
+                    </div>
+                    <div class="layer-home">
+                        <img src="images/标签.png" class="layer-home-lf home">
+                        <span class="layer-home-lf">视觉设计</span>
+                        <img class="layer-home-rg home" src="images/热门.png">
+                        <span class="layer-home-rg">3649</span>
+                    </div>
+                    <div class="layer-home-co"></div>
+                    <div class="layer-home-ct"></div>
+                </div>
+            </li>
+            <li>
+                <div class="dynamic-list">
+                    <a href="#">
+                        <div class="dynamic-list-img"><img class="move" src="images/091432049052bc76e9c1910.jpg"
+                                                           style="margin-top: 10px"></div>
+                        <div class="dynamic-list-tx"><span>Bridget Beth Collins花的艺术</span></div>
+                    </a>
+                    <div class="dynamic-list-time">
+                        <span>2017-02-09</span>
+                        <span class="fabulous"><img src="images/留言.png"> 0</span>
+                        <span class="fabulous"><img src="images/爱心.png"><label> 2</label></span>
+                    </div>
+
+                    <div class="layer-o">
+                    </div>
+                    <div class="layer-home">
+                        <img src="images/标签.png" class="layer-home-lf home">
+                        <span class="layer-home-lf">平面设计</span>
+                        <img class="layer-home-rg home" src="images/热门.png">
+                        <span class="layer-home-rg">1989</span>
+                    </div>
+                    <div class="layer-home-co"></div>
+                    <div class="layer-home-ct"></div>
+                </div>
+            </li>
+            <li>
+                <div class="dynamic-list">
+                    <a href="#">
+                        <div class="dynamic-list-img"><img class="move" src="images/200939006446d860dbbfe54.png"
+                                                           style="margin-top: 10px"></div>
+                        <div class="dynamic-list-tx"><span>釜势设计分享第二十期-潮流组合</span></div>
+                    </a>
+                    <div class="dynamic-list-time">
+                        <span>2017-01-20</span>
+                        <span class="fabulous"><img src="images/留言.png"> 2</span>
+                        <span class="fabulous"><img src="images/爱心.png"><label> 2</label></span>
+                    </div>
+
+                    <div class="layer-o">
+                    </div>
+                    <div class="layer-home">
+                        <img src="images/标签.png" class="layer-home-lf home">
+                        <span class="layer-home-lf">视觉设计</span>
+                        <img class="layer-home-rg home" src="images/热门.png">
+                        <span class="layer-home-rg">3851</span>
+                    </div>
+                    <div class="layer-home-co"></div>
+                    <div class="layer-home-ct"></div>
+                </div>
+            </li>
+            <li>
+                <div class="dynamic-list">
+                    <a href="#">
+                        <div class="dynamic-list-img"><img class="move" src="images/29150929aab3238922bcc25.gif"
+                                                           style="margin-top: 10px"></div>
+                        <div class="dynamic-list-tx"><span>大神手把手教你ps绘制雪糕MBE风格图标</span></div>
+                    </a>
+                    <div class="dynamic-list-time">
+                        <span>2017-01-20</span>
+                        <span class="fabulous"><img src="images/留言.png"> 0</span>
+                        <span class="fabulous"><img src="images/爱心.png"><label> 5</label></span>
+                    </div>
+
+                    <div class="layer-o">
+                    </div>
+                    <div class="layer-home">
+                        <img src="images/标签.png" class="layer-home-lf home">
+                        <span class="layer-home-lf">交互设计</span>
+                        <img class="layer-home-rg home" src="images/热门.png">
+                        <span class="layer-home-rg">2199</span>
+                    </div>
+                    <div class="layer-home-co"></div>
+                    <div class="layer-home-ct"></div>
+                </div>
+            </li>
+            <li>
+                <div class="dynamic-list">
+                    <a href="#">
+                        <div class="dynamic-list-img"><img class="move" src="images/13133559c4ca4238a0b9238.jpg"
+                                                           style="margin-top: 10px"></div>
+                        <div class="dynamic-list-tx"><span>Ermenegildo Zegna 微信 H5</span></div>
+                    </a>
+                    <div class="dynamic-list-time">
+                        <span>2017-01-20</span>
+                        <span class="fabulous"><img src="images/留言.png"> 0</span>
+                        <span class="fabulous"><img src="images/爱心.png"><label> 1</label></span>
+                    </div>
+
+                    <div class="layer-o">
+                    </div>
+                    <div class="layer-home">
+                        <img src="images/标签.png" class="layer-home-lf home">
+                        <span class="layer-home-lf">酷站欣赏</span>
+                        <img class="layer-home-rg home" src="images/热门.png">
+                        <span class="layer-home-rg">1643</span>
+                    </div>
+                    <div class="layer-home-co"></div>
+                    <div class="layer-home-ct"></div>
+                </div>
+            </li>
+            <li>
+                <div class="dynamic-list">
+                    <a href="#">
+                        <div class="dynamic-list-img"><img class="move" src="images/302029078df37c527af1d1d.gif"
+                                                           style="margin-top: 10px"></div>
+                        <div class="dynamic-list-tx"><span>你可能不知道的10个设计神器</span></div>
+                    </a>
+                    <div class="dynamic-list-time">
+                        <span>2016-12-30</span>
+                        <span class="fabulous"><img src="images/留言.png"> 1</span>
+                        <span class="fabulous"><img src="images/爱心.png"><label> 3</label></span>
+                    </div>
+
+                    <div class="layer-o">
+                    </div>
+                    <div class="layer-home">
+                        <img src="images/标签.png" class="layer-home-lf home">
+                        <span class="layer-home-lf">交互设计</span>
+                        <img class="layer-home-rg home" src="images/热门.png">
+                        <span class="layer-home-rg">3084</span>
+                    </div>
+                    <div class="layer-home-co"></div>
+                    <div class="layer-home-ct"></div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="dynamic-page">
+        <span class="dynamic-page-one">1</span>
+        <a href="#"><span class="dynamic-page-two">2</span></a>
+        <span class="dynamic-page-three">...</span>
+        <a href="#"><span class="dynamic-page-two">21</span></a>
+        <a href="#"><span class="dynamic-page-two"><img src="images/下一页.png" width="10px" height="10px"></span></a>
+        <span class="dynamic-page-three">共21页</span>
+        <input type="text" size="4" value="1" id="text-Go"><a href="#"><span class="Go" id="Go">Go</span></a>
+    </div>
+</div>
+<!--图片展示，进入详情-->
+<div class="picture">
+    <ul>
+        <li><a href="#"><img class="picture-move" src="images/29175830de3b4c814f26b58.jpg"></a>
+            <div class="picture-mc">
+                <div class="picture-mc-img"><img src="images/链接.png"></div>
+                <div class="picture-mc-bt">
+                    <div style="color:white;margin-left:10px;font-size: 0.8em;">懒人沙发</div>
+                    <div style="color:#cbcbcb;margin-left:10px;margin-top:10px;margin-right:10px;font-size: 0.5em">
+                        <span>1周前</span>
+                        <span style="float: right">
+                        <img src="images/爱心%20(1).png">0
+                        <img src="images/眼睛.png">65
+                        <img src="images/聊天_normal.png">0
+                    </span>
+                    </div>
+                </div>
+            </div>
+
+        </li>
+        <li><a href="#"><img class="picture-move" src="images/111220589d97a5dad0dc0ba.jpg"></a>
+            <div class="picture-mc">
+                <div class="picture-mc-img"><img src="images/链接.png"></div>
+                <div class="picture-mc-bt">
+                    <div style="color:white;margin-left:10px;font-size: 0.8em;">鹿虎设计</div>
+                    <div style="color:#cbcbcb;margin-left:10px;margin-top:10px;margin-right:10px;font-size: 0.5em">
+                        <span>2017-04-26</span>
+                        <span style="float: right">
+                        <img src="images/爱心%20(1).png">0
+                        <img src="images/眼睛.png">825
+                        <img src="images/聊天_normal.png">0
+                    </span>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li><a href="#"><img class="picture-move" src="images/26141247ce08becc73195df.jpg"></a>
+            <div class="picture-mc">
+                <div class="picture-mc-img"><img src="images/链接.png"></div>
+                <div class="picture-mc-bt">
+                    <div style="color:white;margin-left:10px;font-size: 0.8em;">茅台广告海报</div>
+                    <div style="color:#cbcbcb;margin-left:10px;margin-top:10px;margin-right:10px;font-size: 0.5em">
+                        <span>2017-04-26</span>
+                        <span style="float: right">
+                        <img src="images/爱心%20(1).png">0
+                        <img src="images/眼睛.png">604
+                        <img src="images/聊天_normal.png">0
+                    </span>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li><a href="#"><img class="picture-move" src="images/24152825cc86cfbaeae3a9c.jpg"></a>
+            <div class="picture-mc">
+                <div class="picture-mc-img"><img src="images/链接.png"></div>
+                <div class="picture-mc-bt">
+                    <div style="color:white;margin-left:10px;font-size: 0.8em;">龙</div>
+                    <div style="color:#cbcbcb;margin-left:10px;margin-top:10px;margin-right:10px;font-size: 0.5em">
+                        <span>2017-03-24</span>
+                        <span style="float: right">
+                        <img src="images/爱心%20(1).png">0
+                        <img src="images/眼睛.png">816
+                        <img src="images/聊天_normal.png">0
+                    </span>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li><a href="#"><img class="picture-move" src="images/24152805ee8ff9bf9910689.jpg"></a>
+            <div class="picture-mc">
+                <div class="picture-mc-img"><img src="images/链接.png"></div>
+                <div class="picture-mc-bt">
+                    <div style="color:white;margin-left:10px;font-size: 0.8em;">紫色记忆</div>
+                    <div style="color:#cbcbcb;margin-left:10px;margin-top:10px;margin-right:10px;font-size: 0.5em">
+                        <span>2017-03-24</span>
+                        <span style="float: right">
+                        <img src="images/爱心%20(1).png">0
+                        <img src="images/眼睛.png">786
+                        <img src="images/聊天_normal.png">0
+                    </span>
+                    </div>
+                </div>
+
+            </div>
+
+        </li>
+        <li><a href="#"><img class="picture-move" src="images/241527269be9b90d300d3d0.jpg"></a>
+            <div class="picture-mc">
+                <div class="picture-mc-img"><img src="images/链接.png"></div>
+                <div class="picture-mc-bt">
+                    <div style="color:white;margin-left:10px;font-size: 0.8em;">Angela De Bona</div>
+                    <div style="color:#cbcbcb;margin-left:10px;margin-top:10px;margin-right:10px;font-size: 0.5em">
+                        <span>2017-03-24</span>
+                        <span style="float: right">
+                        <img src="images/爱心%20(1).png">0
+                        <img src="images/眼睛.png">707
+                        <img src="images/聊天_normal.png">0
+                    </span>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li><a href="#"><img class="picture-move" src="images/24152700e1efff65ea558e4.jpg"></a>
+            <div class="picture-mc">
+                <div class="picture-mc-img"><img src="images/链接.png"></div>
+                <div class="picture-mc-bt">
+                    <div style="color:white;margin-left:10px;font-size: 0.8em;">欢乐的海豚</div>
+                    <div style="color:#cbcbcb;margin-left:10px;margin-top:10px;margin-right:10px;font-size: 0.5em">
+                        <span>2017-03-24</span>
+                        <span style="float: right">
+                        <img src="images/爱心%20(1).png">0
+                        <img src="images/眼睛.png">760
+                        <img src="images/聊天_normal.png">0
+                    </span>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li><a href="#"><img class="picture-move" src="images/241526446721859a19f9cdb.jpg"></a>
+            <div class="picture-mc">
+                <div class="picture-mc-img"><img src="images/链接.png"></div>
+                <div class="picture-mc-bt">
+                    <div style="color:white;margin-left:10px;font-size: 0.8em;">谷雨摘新茶，品茗观雨闲闲的一天</div>
+                    <div style="color:#cbcbcb;margin-left:10px;margin-top:10px;margin-right:10px;font-size: 0.5em">
+                        <span>2017-03-24</span>
+                        <span style="float: right">
+                        <img src="images/爱心%20(1).png">0
+                        <img src="images/眼睛.png">741
+                        <img src="images/聊天_normal.png">0
+                    </span>
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+    <div class="picture-more">
+        <a href="#" style="color:white">取悦于灵感-Love Inspiration<span class="page"><img src="images/下一页%20(1).png"></span></a>
+    </div>
+</div>
+<!--包括活动探索发现，用户设计，情感传递等-->
+<div class="activity">
+    <ul class="activity-ul">
+        <li>
+            <div class="activity-img"><img src="images/搜索%20(1).png"></div>
+            <p class="activity-fo">探索发现</p>
+            <p class="activity-ft">探索创造性的思维，发现引领最新的设计潮流</p>
+        </li>
+        <li>
+            <div class="activity-img"><img src="images/用户.png"></div>
+            <p class="activity-fo">用户设计</p>
+            <p class="activity-ft">以用户为中心，以体验为至上，以细节为成败</p>
+        </li>
+        <li>
+            <div class="activity-img"><img src="images/飞机.png"></div>
+            <p class="activity-fo">情感传递</p>
+            <p class="activity-ft">不只是图文信息，更多的是喜怒哀乐的情感</p>
+        </li>
+    </ul>
+    <div class="activity-ul-t">
+        <a href="#"><img src="images/1015044357fcddfbb3540a6.jpg"></a>
+        <a href="#"><img src="images/10150311fe2104fef62de3b.jpg"></a>
+        <a href="#"><img src="images/10153729991d6614823c7b2.jpg"></a>
+        <a href="#"><img src="images/101541394aa258d790eb1d0.jpg"></a>
+    </div>
+</div>
+<!--底部内容-->
+<div class="footer">
+    <div class="footer-ct">
+        <div class="footer-top">
+            <h3>觉唯</h3>
+            <p>以用户为中心的设计理念，专注于用户体验设计，拥有国内外最新的设计潮
+                流趋势、独特而美的创意视觉、新颖而灵敏的思维意识、极致而生动的交互
+                体验，更有严谨而通俗的技术教程！</p>
+            <p>唯然是觉唯网的图片分享社区，以记录美丽、分享美好的创意理念，分享高品质创
+                意、艺术、设计、时尚、插画、摄影、唯美类精美图片。</p>
+        </div>
+        <div class="footer-top-left">
+            <h3>关于</h3>
+            <p><a href="#">关于觉唯</a></p>
+            <p><a href="#">留言联系</a></p>
+            <p><a href="#">友情链接</a></p>
+            <p><a href="#">免责声明</a></p>
+            <p><a href="#">网站地图</a></p>
+        </div>
+        <div class="footer-top-left-md">
+            <h3>栏目</h3>
+            <p><a href="#">用户体验</a></p>
+            <p><a href="#">素材下载</a></p>
+            <p><a href="#">设计欣赏</a></p>
+            <p><a href="#">主题商店</a></p>
+            <p><a href="#">唯然灵感</a></p>
+        </div>
+        <div class="footer-top-right-md">
+            <h3>友链</h3>
+            <p><a href="#">前端观察</a></p>
+            <p><a href="#">设计达人</a></p>
+            <p><a href="#">手机话费开通会员</a></p>
+        </div>
+        <div class="footer-top-right">
+            <h3>关注</h3>
+            <p>Email:<a href="#">javin@jiawin.com</a></p>
+            <p><input type="email" id="email" size="20" placeholder="请输入你的邮箱"><span><a href="#">订阅</a></span></p>
+            <p>
+                <label class="label-o"><a href="#"><img src="images/微博.png"></a></label>
+                <label class="label-t"><a href="#"><img src="images/腾讯微博.png"></a></label>
+                <label class="label-th"><a href="#"><img src="images/QQ.png"></a></label>
+                <label class="label-f"><a href="#"><img src="images/无线网络.png"></a></label>
+                <label class="label-fv"><a href="#"><img src="images/微信.png"></a></label>
+            </p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>Copyright&copy;2012-2017<a href="#">觉唯设计</a> Theme by<a href="#">Javin zhong</a>All All Rights
+            Reserved.粤ICP备12073831号-1</p>
+    </div>
+    <div class="back-top" id="scroll_top">
+        <a href="#"><img src="images/上一页.png"></a>
+    </div>
+</div>
+
+</body>
+</html>
